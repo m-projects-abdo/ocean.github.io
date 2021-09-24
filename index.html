@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- style link -->
+    <link rel="stylesheet" href="./public/style.css">
+
+
+    <title>Ocean</title>
+  </head>
+  <body>
+    <!-- ==header navigation start== -->
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <!-- ==side bar and nav start== -->
+      <div class="right-side">
+        <!-- night and light mode button -->
+        <div class="btns day-night">
+          <ion-icon class="icon" name="moon-outline"></ion-icon>
+          <ion-icon class="icon" name="sunny-outline"></ion-icon>
+        </div>
+        <!-- menu button -->
+        <div class="btns menu-toggle">
+          <ion-icon class="icon" name="menu-outline"></ion-icon>
+          <ion-icon class="icon" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <!-- ==side bar and nav end== -->
+    </header>    
+    <!-- ==header navigation end== -->
+
+    <!-- ==main page start== -->
+    <section class="main">
+      <video 
+        src="./public/video.mp4" 
+        autoplay 
+        muted 
+        loop 
+        type="mp4">
+      </video>
+      <img 
+        src="./public/mask.jpg" 
+        alt="mask"
+        class="mask"
+      >
+      <!-- main subtitle -->
+      <h2>Ocean</h2>
+      <!-- copyright title -->
+      <p class="copy-right-text set-list">@ Mohammed abdo - 2021</p>
+      <!-- social media icon -->
+      <ul class="social-media set-list">
+        <li>
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-codepen"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- ==main page end== -->
+
+    <!-- ==navigation start== -->
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Package</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- ==navigation end== -->
+
+    <!-- page functions -->
+    <script src="./public/main.js"></script>
+    <!-- icons cdn script -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
